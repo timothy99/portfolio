@@ -47,5 +47,6 @@ class BaseController extends Controller
 		// E.g.: $this->session = \Config\Services::session();
 		$this->session = \Config\Services::session(); // 세션
 
+		helper(["logging"]); // 로깅관련 헬퍼 로드
 	}
 }
