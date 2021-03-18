@@ -1,0 +1,3 @@
+.login-card-body .input-group .form-control, .register-card-body .input-group .form-control {
+    border-right: 1px solid #ced4da;
+}
