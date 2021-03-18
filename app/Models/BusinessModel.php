@@ -56,7 +56,7 @@ class BusinessModel extends Model
 		$memo_text = null;
 		$business_no = null;
 
-		$pos = strpos($data, "과부하");
+		$pos = strpos($data, "과부하"); // 홈택스 접속을 제한한다는 문구가 있음을 '과부하'라는 글자로 판단
 		if($pos > 0) {
 			$result = false;
 			$message = $data;
@@ -81,7 +81,7 @@ class BusinessModel extends Model
 		$proc_result["memo_text"] = $memo_text;
 		$proc_result["business_no"] = $business_no;
 
-		sleep(1); // 지속적인 데이터 때리면 잠깐 중지되므로 1초씩 쉰다.
+		sleep(1); // 지속적인 데이터 조회하면 잠깐 중지되므로 1초씩 쉰다.
 
 		return $proc_result;
 	}
