@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>K-비대면바우처플랫폼</title>
+	<title>포트폴리오</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Tell the browser to be responsive to screen width -->
 
